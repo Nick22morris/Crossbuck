@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC2DBD2277BD38000A6994A /* CrossbuckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */; };
+		FEC2DBD4277BD38000A6994A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBD3277BD38000A6994A /* ContentView.swift */; };
+		FEC2DBD6277BD38200A6994A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC2DBD5277BD38200A6994A /* Assets.xcassets */; };
+		FEC2DBD9277BD38200A6994A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC2DBD8277BD38200A6994A /* Preview Assets.xcassets */; };
+		FEC2DBE3277BD38200A6994A /* CrossbuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBE2277BD38200A6994A /* CrossbuckTests.swift */; };
+		FEC2DBED277BD38200A6994A /* CrossbuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBEC277BD38200A6994A /* CrossbuckUITests.swift */; };
+		FEC2DBEF277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBEE277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC2DBDF277BD38200A6994A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC2DBC6277BD38000A6994A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC2DBCD277BD38000A6994A;
+			remoteInfo = Crossbuck;
+		};
+		FEC2DBE9277BD38200A6994A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC2DBC6277BD38000A6994A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC2DBCD277BD38000A6994A;
+			remoteInfo = Crossbuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC2DBCE277BD38000A6994A /* Crossbuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crossbuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckApp.swift; sourceTree = "<group>"; };
+		FEC2DBD3277BD38000A6994A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEC2DBD5277BD38200A6994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC2DBD8277BD38200A6994A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEC2DBDE277BD38200A6994A /* CrossbuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossbuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC2DBE2277BD38200A6994A /* CrossbuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckTests.swift; sourceTree = "<group>"; };
+		FEC2DBE8277BD38200A6994A /* CrossbuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossbuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC2DBEC277BD38200A6994A /* CrossbuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckUITests.swift; sourceTree = "<group>"; };
+		FEC2DBEE277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC2DBCB277BD38000A6994A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBDB277BD38200A6994A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBE5277BD38200A6994A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC2DBC5277BD38000A6994A = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBD0277BD38000A6994A /* Crossbuck */,
+				FEC2DBE1277BD38200A6994A /* CrossbuckTests */,
+				FEC2DBEB277BD38200A6994A /* CrossbuckUITests */,
+				FEC2DBCF277BD38000A6994A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC2DBCF277BD38000A6994A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBCE277BD38000A6994A /* Crossbuck.app */,
+				FEC2DBDE277BD38200A6994A /* CrossbuckTests.xctest */,
+				FEC2DBE8277BD38200A6994A /* CrossbuckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC2DBD0277BD38000A6994A /* Crossbuck */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */,
+				FEC2DBD3277BD38000A6994A /* ContentView.swift */,
+				FEC2DBD5277BD38200A6994A /* Assets.xcassets */,
+				FEC2DBD7277BD38200A6994A /* Preview Content */,
+			);
+			path = Crossbuck;
+			sourceTree = "<group>";
+		};
+		FEC2DBD7277BD38200A6994A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBD8277BD38200A6994A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC2DBE1277BD38200A6994A /* CrossbuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBE2277BD38200A6994A /* CrossbuckTests.swift */,
+			);
+			path = CrossbuckTests;
+			sourceTree = "<group>";
+		};
+		FEC2DBEB277BD38200A6994A /* CrossbuckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC2DBEC277BD38200A6994A /* CrossbuckUITests.swift */,
+				FEC2DBEE277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift */,
+			);
+			path = CrossbuckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC2DBCD277BD38000A6994A /* Crossbuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC2DBF2277BD38200A6994A /* Build configuration list for PBXNativeTarget "Crossbuck" */;
+			buildPhases = (
+				FEC2DBCA277BD38000A6994A /* Sources */,
+				FEC2DBCB277BD38000A6994A /* Frameworks */,
+				FEC2DBCC277BD38000A6994A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crossbuck;
+			productName = Crossbuck;
+			productReference = FEC2DBCE277BD38000A6994A /* Crossbuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC2DBDD277BD38200A6994A /* CrossbuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC2DBF5277BD38200A6994A /* Build configuration list for PBXNativeTarget "CrossbuckTests" */;
+			buildPhases = (
+				FEC2DBDA277BD38200A6994A /* Sources */,
+				FEC2DBDB277BD38200A6994A /* Frameworks */,
+				FEC2DBDC277BD38200A6994A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC2DBE0277BD38200A6994A /* PBXTargetDependency */,
+			);
+			name = CrossbuckTests;
+			productName = CrossbuckTests;
+			productReference = FEC2DBDE277BD38200A6994A /* CrossbuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC2DBE7277BD38200A6994A /* CrossbuckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC2DBF8277BD38200A6994A /* Build configuration list for PBXNativeTarget "CrossbuckUITests" */;
+			buildPhases = (
+				FEC2DBE4277BD38200A6994A /* Sources */,
+				FEC2DBE5277BD38200A6994A /* Frameworks */,
+				FEC2DBE6277BD38200A6994A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC2DBEA277BD38200A6994A /* PBXTargetDependency */,
+			);
+			name = CrossbuckUITests;
+			productName = CrossbuckUITests;
+			productReference = FEC2DBE8277BD38200A6994A /* CrossbuckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC2DBC6277BD38000A6994A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FEC2DBCD277BD38000A6994A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FEC2DBDD277BD38200A6994A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FEC2DBCD277BD38000A6994A;
+					};
+					FEC2DBE7277BD38200A6994A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FEC2DBCD277BD38000A6994A;
+					};
+				};
+			};
+			buildConfigurationList = FEC2DBC9277BD38000A6994A /* Build configuration list for PBXProject "Crossbuck" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC2DBC5277BD38000A6994A;
+			productRefGroup = FEC2DBCF277BD38000A6994A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC2DBCD277BD38000A6994A /* Crossbuck */,
+				FEC2DBDD277BD38200A6994A /* CrossbuckTests */,
+				FEC2DBE7277BD38200A6994A /* CrossbuckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC2DBCC277BD38000A6994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC2DBD9277BD38200A6994A /* Preview Assets.xcassets in Resources */,
+				FEC2DBD6277BD38200A6994A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBDC277BD38200A6994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBE6277BD38200A6994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC2DBCA277BD38000A6994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC2DBD4277BD38000A6994A /* ContentView.swift in Sources */,
+				FEC2DBD2277BD38000A6994A /* CrossbuckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBDA277BD38200A6994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC2DBE3277BD38200A6994A /* CrossbuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC2DBE4277BD38200A6994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC2DBEF277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift in Sources */,
+				FEC2DBED277BD38200A6994A /* CrossbuckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC2DBE0277BD38200A6994A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC2DBCD277BD38000A6994A /* Crossbuck */;
+			targetProxy = FEC2DBDF277BD38200A6994A /* PBXContainerItemProxy */;
+		};
+		FEC2DBEA277BD38200A6994A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC2DBCD277BD38000A6994A /* Crossbuck */;
+			targetProxy = FEC2DBE9277BD38200A6994A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEC2DBF0277BD38200A6994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC2DBF1277BD38200A6994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC2DBF3277BD38200A6994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Crossbuck/Preview Content\"";
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.Crossbuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC2DBF4277BD38200A6994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Crossbuck/Preview Content\"";
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.Crossbuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEC2DBF6277BD38200A6994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.CrossbuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossbuck.app/Crossbuck";
+			};
+			name = Debug;
+		};
+		FEC2DBF7277BD38200A6994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.CrossbuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossbuck.app/Crossbuck";
+			};
+			name = Release;
+		};
+		FEC2DBF9277BD38200A6994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.CrossbuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crossbuck;
+			};
+			name = Debug;
+		};
+		FEC2DBFA277BD38200A6994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6X6D3C93L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.CrossbuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crossbuck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC2DBC9277BD38000A6994A /* Build configuration list for PBXProject "Crossbuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC2DBF0277BD38200A6994A /* Debug */,
+				FEC2DBF1277BD38200A6994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC2DBF2277BD38200A6994A /* Build configuration list for PBXNativeTarget "Crossbuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC2DBF3277BD38200A6994A /* Debug */,
+				FEC2DBF4277BD38200A6994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC2DBF5277BD38200A6994A /* Build configuration list for PBXNativeTarget "CrossbuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC2DBF6277BD38200A6994A /* Debug */,
+				FEC2DBF7277BD38200A6994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC2DBF8277BD38200A6994A /* Build configuration list for PBXNativeTarget "CrossbuckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC2DBF9277BD38200A6994A /* Debug */,
+				FEC2DBFA277BD38200A6994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC2DBC6277BD38000A6994A /* Project object */;
+}
