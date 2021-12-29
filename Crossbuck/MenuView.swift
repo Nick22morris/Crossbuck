@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuView: View {
+    let move = -150.0
     var body: some View {
             ScrollView {
                 Image("cut")
@@ -17,15 +18,7 @@ struct MenuView: View {
                     .frame(height: 150)
                     .ignoresSafeArea()
                 
-                HStack{
-                    Text("Menu")
-                    .font(.title)
-                    .bold()
-                    .padding(.top, 30)
-                    .padding(.leading, 30)
-                    .offset( y: -50)
-                    Spacer()
-                }
+                topper(head: "Menu", move: move)
                 VStack{
                     Text("Proteins")
                         .bold()
@@ -45,7 +38,7 @@ struct MenuView: View {
                         }
                         .listStyle(.insetGrouped)
                 }
-                .offset( y: -50)
+                .offset( y: move + 50)
             }
     }
 }
