@@ -102,11 +102,11 @@
 		FEC2DBD0277BD38000A6994A /* Crossbuck */ = {
 			isa = PBXGroup;
 			children = (
+				FEC2DC01277BEBEA00A6994A /* Food.swift */,
 				FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */,
 				FEC2DBD3277BD38000A6994A /* ContentView.swift */,
 				FEC2DBFB277BD46A00A6994A /* HomeView.swift */,
 				FEC2DBFF277BDFA400A6994A /* MenuView.swift */,
-				FEC2DC01277BEBEA00A6994A /* Food.swift */,
 				FEC2DBFD277BD65F00A6994A /* AboutView.swift */,
 				FEC2DBD5277BD38200A6994A /* Assets.xcassets */,
 				FEC2DBD7277BD38200A6994A /* Preview Content */,

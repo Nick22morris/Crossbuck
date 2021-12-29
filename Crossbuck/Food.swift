@@ -22,3 +22,14 @@ let ProteinMenu = [
     format(name: "Citrus Glazed Salmon", description: "thoughtfully sourced and gently smoked with citrus...the jogger's BBQ (GF)"),
     format(name: "CB's House Sausage", description: "House recipe sausage with smokey poblano peppers"),
 ]
+
+let SideMenu = [
+    format(name: "Baked Beans", description: "with soy-smoked onion and Anaheim chili"),
+    format(name: "Desert Line Hominy", description: "with epazote, fresh herbs, spices and cotija (GF)"),
+    format(name: "Smoked & Roasted Potatoes", description: "with smoked scallion and olive oil (GF)"),
+    format(name: "Mac N' Cheese", description: "Vermont white cheddar cheese and smoked garlic"),
+    format(name: "Smokemaster’s Vegetables", description: "seasonal vegetables with smoked three onion butter (GF)"),
+    format(name: "Miso Honey Slaw", description: "crisp slaw with miso, honey and pickled ginger"),
+    format(name: "Yardmaster’s Salad", description: "fresh greens with CB Ranch or CB Vinaigrette (GF)"),
+    format(name: "Feature Sides", description: "daily creations from our talented Chef"),
+]

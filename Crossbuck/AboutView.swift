@@ -11,6 +11,7 @@ struct AboutView: View {
     var body: some View {
         VStack {
             Image("brisket")
+                .offset(y: -50)
             Text("The Crossroads of American BBQ")
                 .bold()
                 .font(.title)
