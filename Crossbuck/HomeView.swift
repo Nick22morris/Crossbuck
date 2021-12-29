@@ -39,8 +39,8 @@ struct HomeView: View {
             Text("The Crossroads of American BBQ")
                 .italic()
                 .padding(.bottom, 75)
-            BubbleView(text: "+1-212-456-7890")
-            BubbleView(text: "www.crossbuckbbq.com")
+            PhoneBubble(text: "+1-212-456-7890")
+            WebBubble(text: "www.crossbuckbbq.com")
             Spacer()
             Spacer()
         }
@@ -53,17 +53,38 @@ struct HomeView_Previews: PreviewProvider {
     }
 }
 
-struct BubbleView: View {
+struct PhoneBubble: View {
     let text : String
     var body: some View {
-        ZStack{
-            RoundedRectangle(cornerRadius: 25)
-                .frame(width: 350, height: 50, alignment: .center)
-                .foregroundColor(.blue)
-            Text(text)
-                .foregroundColor(.white)
+        Link(destination: URL(string: "tel:9493073665")!) {
+            ZStack{
+                RoundedRectangle(cornerRadius: 25)
+                    .frame(width: 350, height: 50, alignment: .center)
+                    .foregroundColor(.blue)
+                
+                Text(text)
+                    .foregroundColor(.white)
+            }
+            .padding()
         }
-        .padding()
+        
+    }
+}
+struct WebBubble: View {
+    let text : String
+    var body: some View {
+        Link(destination: URL(string: "https://www.crossbuckbbq.com/")!) {
+            ZStack{
+                RoundedRectangle(cornerRadius: 25)
+                    .frame(width: 350, height: 50, alignment: .center)
+                    .foregroundColor(.blue)
+                
+                Text(text)
+                    .foregroundColor(.white)
+            }
+            .padding()
+        }
+        
     }
 }
 struct EdgeBorder: Shape {
