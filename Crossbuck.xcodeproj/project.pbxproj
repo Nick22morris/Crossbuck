@@ -14,6 +14,8 @@
 		FEC2DBE3277BD38200A6994A /* CrossbuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBE2277BD38200A6994A /* CrossbuckTests.swift */; };
 		FEC2DBED277BD38200A6994A /* CrossbuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBEC277BD38200A6994A /* CrossbuckUITests.swift */; };
 		FEC2DBEF277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBEE277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift */; };
+		FEC2DBFC277BD46A00A6994A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBFB277BD46A00A6994A /* HomeView.swift */; };
+		FEC2DBFE277BD65F00A6994A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2DBFD277BD65F00A6994A /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEC2DBCE277BD38000A6994A /* Crossbuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crossbuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC2DBCE277BD38000A6994A /* Crossbuck BBQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossbuck BBQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckApp.swift; sourceTree = "<group>"; };
 		FEC2DBD3277BD38000A6994A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEC2DBD5277BD38200A6994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		FEC2DBE8277BD38200A6994A /* CrossbuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossbuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC2DBEC277BD38200A6994A /* CrossbuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckUITests.swift; sourceTree = "<group>"; };
 		FEC2DBEE277BD38200A6994A /* CrossbuckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossbuckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEC2DBFB277BD46A00A6994A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FEC2DBFD277BD65F00A6994A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 		FEC2DBCF277BD38000A6994A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEC2DBCE277BD38000A6994A /* Crossbuck.app */,
+				FEC2DBCE277BD38000A6994A /* Crossbuck BBQ.app */,
 				FEC2DBDE277BD38200A6994A /* CrossbuckTests.xctest */,
 				FEC2DBE8277BD38200A6994A /* CrossbuckUITests.xctest */,
 			);
@@ -96,6 +100,8 @@
 			children = (
 				FEC2DBD1277BD38000A6994A /* CrossbuckApp.swift */,
 				FEC2DBD3277BD38000A6994A /* ContentView.swift */,
+				FEC2DBFB277BD46A00A6994A /* HomeView.swift */,
+				FEC2DBFD277BD65F00A6994A /* AboutView.swift */,
 				FEC2DBD5277BD38200A6994A /* Assets.xcassets */,
 				FEC2DBD7277BD38200A6994A /* Preview Content */,
 			);
@@ -144,7 +150,7 @@
 			);
 			name = Crossbuck;
 			productName = Crossbuck;
-			productReference = FEC2DBCE277BD38000A6994A /* Crossbuck.app */;
+			productReference = FEC2DBCE277BD38000A6994A /* Crossbuck BBQ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FEC2DBDD277BD38200A6994A /* CrossbuckTests */ = {
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC2DBFE277BD65F00A6994A /* AboutView.swift in Sources */,
+				FEC2DBFC277BD46A00A6994A /* HomeView.swift in Sources */,
 				FEC2DBD4277BD38000A6994A /* ContentView.swift in Sources */,
 				FEC2DBD2277BD38000A6994A /* CrossbuckApp.swift in Sources */,
 			);
@@ -433,7 +441,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.Crossbuck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Crossbuck BBQ";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +470,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessicamorris.Crossbuck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Crossbuck BBQ";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
