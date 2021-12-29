@@ -12,11 +12,8 @@ struct HomeView: View {
         VStack{
             ZStack{
                 Image("ribs")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .edgesIgnoringSafeArea(.top)
-                    .frame( height: 200, alignment: .center)
                     .border(width: 5, edges: [.bottom], color: .black)
+                    .offset(y: -50)
                 ZStack {
                     Circle()
                         .fill(Color.white)
@@ -29,18 +26,25 @@ struct HomeView: View {
                         .resizable()
                     .frame(width: 150, height: 150, alignment: .center)
                 }
-                .offset(y: 100)
+                .offset(y: 40)
             }
-            Spacer()
+            
             Text("Crossbuck BBQ")
                 .font(.title)
                 .bold()
                 .padding(.top, 100)
             Text("The Crossroads of American BBQ")
                 .italic()
-                .padding(.bottom, 75)
+                .padding(.bottom, 30)
+            HStack{
+                
+                social(img: "insta", lnk: "https://www.instagram.com/crossbuckbbq/")
+                social(img: "face", lnk: "https://www.facebook.com/crossbuckbbq")
+            }
+            .padding(.top, 50)
             PhoneBubble(text: "+1-212-456-7890")
             WebBubble(text: "www.crossbuckbbq.com")
+                .padding(.bottom, 30)
             Spacer()
             Spacer()
         }
@@ -70,6 +74,7 @@ struct PhoneBubble: View {
         
     }
 }
+
 struct WebBubble: View {
     let text : String
     var body: some View {
@@ -83,6 +88,18 @@ struct WebBubble: View {
                     .foregroundColor(.white)
             }
             .padding()
+        }
+        
+    }
+}
+struct social: View {
+    let img : String
+    let lnk : String
+    var body: some View {
+        Link(destination: URL(string: lnk)!) {
+            Image(img)
+                .resizable()
+                .frame(width: 100, height: 100, alignment: .center)
         }
         
     }
